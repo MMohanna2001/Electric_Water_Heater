@@ -12,7 +12,7 @@
 //Function to initialize the Temperature Sensor by setting its pin as Output
 void LM35_init(void)
 {
-	DIO_setPinDirection(DIO_PORTA,DIO_PIN0,DIO_PIN_OUTPUT);
+	DIO_setPinDirection(DIO_PORTA,DIO_PIN0,DIO_PIN_INPUT);
 }
 
 //Function to obtain the Correct Temperature Value from
